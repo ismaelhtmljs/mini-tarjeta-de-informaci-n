@@ -3,7 +3,7 @@
 Este proyecto es una tarjeta de presentación personal hecha con **HTML**, **CSS** y **JavaScript** puro, ideal para practicar y demostrar habilidades front-end básicas sin frameworks.
 
 # Enlace directo
-[![Ver demo](https://img.shields.io/badge/VER%20DEMO-%2300cc66?style=for-the-badge&logo=vercel&logoColor=white)](https://tutarjeta.vercel.app)
+[![Ver demo](https://img.shields.io/badge/VER%20DEMO-%2300cc66?style=for-the-badge&logo=vercel&logoColor=white)](https://mini-tarjeta-de-informaci-n.vercel.app/)
 
 ## 🚀 Descripción
 
