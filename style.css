@@ -1,0 +1,146 @@
+:root{
+    --bg-color: #fff;
+    --bg-color-dark: #333;
+}
+
+body{
+    background: var(--bg-color);
+    transition: ease-in-out 1s;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #fff;
+}
+
+body.dark{
+    transition: ease-in-out 1s;
+    background: var(--bg-color-dark);
+}
+
+.center-text{
+    text-align: center;
+}
+
+.div-center-tarjet{
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.tarjet{
+    background: linear-gradient(132deg,rgba(0, 0, 0, 0.833),rgba(35, 217, 105, 0.824));
+    border-radius: 15px;
+    padding: 15px;
+    width: 500px;
+    height: 500px;
+    overflow-y: auto;
+}
+
+.tarjet::-webkit-scrollbar{
+    width: 8px;
+}
+
+.tarjet::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+.tarjet::-webkit-scrollbar-thumb{
+    background-color: rgba(209, 139, 139, 0.824);
+    border-radius: 15px;
+}
+
+.section-info-1,
+.section-info-2{
+    font-size: 18px;
+}
+
+.section-info-2 p,
+.section-info-3 p,
+.section-info-4 p,
+.div-ul,
+.div-ul-sec-4{
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.div-flex-sec-1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img_pancho{
+    width: 180px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.div-bton-darkmode{
+    position: sticky;
+    top: 0px;
+    width: max-content;
+}
+
+.bton-darkmode{
+    color: white;
+    background: green;
+    border-radius: 15px;
+    padding: 10px;
+    font-size: 18px;
+    border: 0;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* media queri */
+@media only screen and (min-width: 238px) and (max-width: 369px){
+    .div-flex-sec-1{
+        flex-direction: column-reverse;
+    }
+
+    p{
+        padding-left: 0 !important;
+        font-size: 17px !important;
+    }
+
+    .mq-text{
+        font-size: 15px !important;
+    }
+
+    .div-ul{
+        padding-left: 0px !important;
+        font-size: 14.5px !important;
+    }
+
+    .div-ul-sec-4{
+        padding-left: 0px !important;
+        font-size: 14.5px !important;
+    }
+
+    .div-center-tarjet{
+        margin-top: 20%;
+    }
+}
+
+@media only screen and (min-width: 369px) and (max-width: 424px){
+    .div-flex-sec-1{
+        flex-direction: column-reverse;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 487px){
+    .div-flex-sec-1{
+        flex-direction: column-reverse;
+    }
+}
