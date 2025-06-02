@@ -44,7 +44,7 @@ body.dark {
 }
 
 .tarjet::-webkit-scrollbar-thumb {
-    background-color: rgba(209, 139, 139, 0.824);
+    background-color: rgba(0, 0, 0, 0.824);
     border-radius: 15px;
 }
 
