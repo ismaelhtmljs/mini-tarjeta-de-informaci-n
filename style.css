@@ -1,9 +1,9 @@
-:root{
+:root {
     --bg-color: #fff;
     --bg-color-dark: #333;
 }
 
-body{
+body {
     background: var(--bg-color);
     transition: ease-in-out 1s;
     box-sizing: border-box;
@@ -11,23 +11,23 @@ body{
     color: #fff;
 }
 
-body.dark{
+body.dark {
     transition: background ease-in-out 1s;
     background: var(--bg-color-dark);
 }
 
-.center-text{
+.center-text {
     text-align: center;
 }
 
-.div-center-tarjet{
+.div-center-tarjet {
     display: flex;
     justify-content: center;
     margin-top: 6%;
 }
 
-.tarjet{
-    background: linear-gradient(132deg,rgba(0, 0, 0, 0.833),rgba(35, 217, 105, 0.824));
+.tarjet {
+    background: linear-gradient(132deg, rgba(0, 0, 0, 0.833), rgba(35, 217, 105, 0.824));
     border-radius: 15px;
     padding: 15px;
     width: 500px;
@@ -35,21 +35,21 @@ body.dark{
     overflow-y: auto;
 }
 
-.tarjet::-webkit-scrollbar{
+.tarjet::-webkit-scrollbar {
     width: 8px;
 }
 
-.tarjet::-webkit-scrollbar-track{
+.tarjet::-webkit-scrollbar-track {
     background-color: transparent;
 }
 
-.tarjet::-webkit-scrollbar-thumb{
+.tarjet::-webkit-scrollbar-thumb {
     background-color: rgba(209, 139, 139, 0.824);
     border-radius: 15px;
 }
 
 .section-info-1,
-.section-info-2{
+.section-info-2 {
     font-size: 18px;
 }
 
@@ -57,30 +57,30 @@ body.dark{
 .section-info-3 p,
 .section-info-4 p,
 .div-ul,
-.div-ul-sec-4{
+.div-ul-sec-4 {
     padding-left: 25px;
     font-size: 20px;
 }
 
-.div-flex-sec-1{
+.div-flex-sec-1 {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-.img_pancho{
+.img_pancho {
     width: 180px;
     height: auto;
     border-radius: 100%;
 }
 
-.div-bton-darkmode{
+.div-bton-darkmode {
     position: sticky;
     top: 0px;
     width: max-content;
 }
 
-.bton-darkmode{
+.bton-darkmode {
     color: white;
     background: green;
     border-radius: 15px;
@@ -89,7 +89,7 @@ body.dark{
     border: 0;
 }
 
-.ul-li-sec-4{
+.ul-li-sec-4 {
     display: flex;
     flex-direction: column;
     gap: 18px;
@@ -97,7 +97,7 @@ body.dark{
 
 .github-style,
 .instagram-style,
-.email-style{
+.email-style {
     padding: 5px;
     background-color: rgb(135, 28, 184);
     border-radius: 10px;
@@ -107,67 +107,89 @@ body.dark{
 
 .github-style:hover,
 .instagram-style:hover,
-.email-style:hover{
+.email-style:hover {
     font-size: x-large;
 }
 
-a{
+a {
     color: #fff;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
-p{
+p {
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 /* media queri */
-@media only screen and (min-width: 238px) and (max-width: 369px){
-    .div-flex-sec-1{
+@media only screen and (min-width: 238px) and (max-width: 369px) {
+    .div-flex-sec-1 {
         flex-direction: column-reverse;
     }
 
-    p{
+    p {
         padding-left: 0 !important;
         font-size: 17px !important;
     }
 
-    .mq-text{
+    .mq-text {
         font-size: 15px !important;
     }
 
-    .div-ul{
+    .div-ul {
         padding-left: 0px !important;
         font-size: 14.5px !important;
     }
 
-    .div-ul-sec-4{
+    .div-ul-sec-4 {
         padding-left: 0px !important;
-        font-size: 14.5px !important;
+        font-size: 11.5px !important;
     }
 
-    .div-center-tarjet{
+    .div-center-tarjet {
         margin-top: 20%;
+    }
+
+    .github-style:hover,
+    .instagram-style:hover,
+    .email-style:hover {
+        font-size: 13px !important;
     }
 }
 
-@media only screen and (min-width: 369px) and (max-width: 424px){
-    .div-flex-sec-1{
+@media only screen and (min-width: 369px) and (max-width: 424px) {
+    .div-flex-sec-1 {
         flex-direction: column-reverse;
     }
 
-    .div-ul-sec-4{
+    .div-ul-sec-4 {
         padding: 0px !important;
+        font-size: 15px !important;
+    }
+
+    .github-style:hover,
+    .instagram-style:hover,
+    .email-style:hover {
         font-size: 18px !important;
     }
 }
 
-@media only screen and (min-width: 425px) and (max-width: 487px){
-    .div-flex-sec-1{
+@media only screen and (min-width: 425px) and (max-width: 487px) {
+    .div-flex-sec-1 {
         flex-direction: column-reverse;
+    }
+
+    .div-ul-sec-4{
+        font-size: 15px;
+    }
+
+    .github-style:hover,
+    .instagram-style:hover,
+    .email-style:hover {
+        font-size: 18px !important;
     }
 }
