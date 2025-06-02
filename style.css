@@ -12,7 +12,7 @@ body{
 }
 
 body.dark{
-    transition: ease-in-out 1s;
+    transition: background ease-in-out 1s;
     background: var(--bg-color-dark);
 }
 
@@ -89,6 +89,28 @@ body.dark{
     border: 0;
 }
 
+.ul-li-sec-4{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.github-style,
+.instagram-style,
+.email-style{
+    padding: 5px;
+    background-color: rgb(135, 28, 184);
+    border-radius: 10px;
+    text-decoration: none !important;
+    transition: font-size 0.3s ease;
+}
+
+.github-style:hover,
+.instagram-style:hover,
+.email-style:hover{
+    font-size: x-large;
+}
+
 a{
     color: #fff;
     text-decoration: none;
@@ -136,6 +158,11 @@ p{
 @media only screen and (min-width: 369px) and (max-width: 424px){
     .div-flex-sec-1{
         flex-direction: column-reverse;
+    }
+
+    .div-ul-sec-4{
+        padding: 0px !important;
+        font-size: 18px !important;
     }
 }
 
